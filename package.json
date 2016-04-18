@@ -1,0 +1,29 @@
+{
+  "name": "macaca-chrome",
+  "version": "0.0.1",
+  "description": "macaca chrome",
+  "main": "./lib/macaca-chrome.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenzhu/macaca-chrome.git"
+  },
+  "keywords": [
+    "macaca",
+    "chrome"
+  ],
+  "author": "zenzhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenzhu/macaca-chrome/issues"
+  },
+  "homepage": "https://github.com/zenzhu/macaca-chrome#readme",
+  "dependencies": {
+    "driver-base": "^0.1.0",
+    "macaca-chromedriver": "^1.0.4",
+    "macaca-utils": "^0.1.8",
+    "xlogger": "~1.0.0"
+  }
+}
