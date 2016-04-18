@@ -2,7 +2,7 @@
  * macaca-ios by zenzhu(zic.zhu[at]gmail.com)
  *
  * ================================================================
- * Copyright zenzhu
+ * Copyright 2016 zenzhu
  *
  * Licensed under the MIT License
  * You may not use this file except in compliance with the License.
@@ -11,10 +11,10 @@
 
 'use strict';
 
-const path = require('path');
-const logger = require('xlogger');
-const options = {
-  logFileDir: path.join(__dirname, '..', '..', 'logs')
-};
+var Chrome = require('..');
 
-module.exports = logger.Logger(options);
+describe('test', function() {
+  it('should be ok', function() {
+    Chrome.should.be.ok;
+  });
+});
