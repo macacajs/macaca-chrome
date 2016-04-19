@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenzhu/macaca-chrome.git"
+    "url": "git+https://github.com/macacajs/macaca-chrome.git"
   },
   "keywords": [
     "macaca",
     "chrome"
   ],
-  "author": "zenzhu",
+  "author": "macacajs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zenzhu/macaca-chrome/issues"
+    "url": "https://github.com/macacajs/macaca-chrome/issues"
   },
-  "homepage": "https://github.com/zenzhu/macaca-chrome#readme",
+  "homepage": "https://github.com/macacajs/macaca-chrome#readme",
   "dependencies": {
     "driver-base": "^0.1.0",
     "macaca-chromedriver": "^1.0.4",
