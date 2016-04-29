@@ -24,7 +24,3 @@
 ```bash
 $ npm i macaca-chrome --save
 ```
-
-## License
-
-The MIT License (MIT)
