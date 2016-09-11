@@ -1,25 +1,21 @@
 {
   "name": "macaca-chrome",
-  "version": "1.0.1",
-  "description": "macaca chrome",
+  "version": "1.0.2",
+  "description": "macaca chrome driver",
   "main": "./lib/macaca-chrome.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "jshint": "make jshint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macacajs/macaca-chrome.git"
+    "url": "git@github.com:macacajs/macaca-chrome.git"
   },
   "keywords": [
     "macaca",
     "chrome"
   ],
-  "author": "macacajs",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/macacajs/macaca-chrome/issues"
-  },
-  "homepage": "https://github.com/macacajs/macaca-chrome#readme",
   "dependencies": {
     "driver-base": "^0.1.0",
     "macaca-chromedriver": "^1.0.4",
@@ -28,15 +24,11 @@
   },
   "devDependencies": {
     "co-mocha": "*",
-    "mocha": "*",
-    "should": "*",
+    "istanbul": "^0.4.5",
     "jshint": "*",
-    "istanbul": "*",
-    "pre-commit": "1.1.1"
-  },
-  "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "mocha": "*",
+    "pre-commit": "1.1.1",
+    "should": "*"
   },
   "pre-commit": [
     "jshint"

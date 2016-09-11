@@ -17,10 +17,10 @@
 [download-image]: https://img.shields.io/npm/dm/macaca-chrome.svg?style=flat-square
 [download-url]: https://npmjs.org/package/macaca-chrome
 
-> macaca electron driver
+> macaca chrome driver
 
 ## Installment
 
-```bash
+```shell
 $ npm i macaca-chrome --save
 ```
