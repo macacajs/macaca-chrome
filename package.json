@@ -1,6 +1,6 @@
 {
   "name": "macaca-chrome",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "macaca chrome driver",
   "main": "./lib/macaca-chrome.js",
   "scripts": {
