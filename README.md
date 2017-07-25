@@ -21,6 +21,6 @@
 
 ## Installment
 
-```shell
+``` bash
 $ npm i macaca-chrome --save
 ```
