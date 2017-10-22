@@ -1,6 +1,6 @@
 {
   "name": "macaca-chrome",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "macaca chrome driver",
   "main": "./lib/macaca-chrome.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "driver-base": "^0.1.0",
     "macaca-chromedriver": "^1.0.4",
-    "macaca-utils": "^0.1.8",
+    "macaca-utils": "^1.0.0",
     "xlogger": "~1.0.0"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "istanbul": "^0.4.5",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
+    "pre-commit": "*",
     "should": "*"
   },
   "pre-commit": [
