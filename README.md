@@ -24,3 +24,7 @@
 ``` bash
 $ npm i macaca-chrome --save
 ```
+
+## Custom ChromeDriver Version
+
+[link](//github.com/macacajs/macaca-chromedriver#custom-version)
