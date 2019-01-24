@@ -19,6 +19,18 @@
 
 > macaca chrome driver
 
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars1.githubusercontent.com/u/1044425?v=4" width="100px;"/><br/><sub><b>ziczhu</b></sub>](https://github.com/ziczhu)<br/>
+| :---: | :---: |
+
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Thu Jan 24 2019 10:44:01 GMT+0800`.
+
+<!-- GITCONTRIBUTOR_END -->
+
 ## Installment
 
 ```bash
@@ -28,3 +40,7 @@ $ npm i macaca-chrome --save
 ## Custom ChromeDriver Version
 
 [link](//github.com/macacajs/macaca-chromedriver#custom-version)
+
+## License
+
+The MIT License (MIT)

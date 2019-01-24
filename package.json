@@ -4,8 +4,9 @@
   "description": "macaca chrome driver",
   "main": "./lib/macaca-chrome.js",
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "lint": "jshint .",
+    "contributor": "git-contributor"
   },
   "repository": {
     "type": "git",
@@ -24,13 +25,16 @@
   },
   "devDependencies": {
     "co-mocha": "*",
-    "istanbul": "^0.4.5",
+    "git-contributor": "^1.0.8",
+    "husky": "^1.3.1",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "*",
-    "should": "*"
+    "nyc": "^13.1.0",
+    "pre-commit": "*"
   },
-  "pre-commit": [
-    "jshint"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint"
+    }
+  }
 }

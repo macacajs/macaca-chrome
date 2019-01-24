@@ -1,9 +1,10 @@
 'use strict';
 
-var Chrome = require('../lib/macaca-chrome.js');
+const assert = require('assert');
+const chrome = require('../lib/macaca-chrome');
 
 describe('test', function() {
   it('should be ok', function() {
-    Chrome.should.be.ok();
+    assert(chrome);
   });
 });
