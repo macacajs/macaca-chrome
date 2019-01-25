@@ -12,7 +12,7 @@ Set up your machine:
 
 Then make your change and make sure the tests pass:
 
-    make test
+    npm test
 
 Push to your fork and [submit a pull request][pr].
 
