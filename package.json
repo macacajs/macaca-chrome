@@ -1,6 +1,6 @@
 {
   "name": "macaca-chrome",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "macaca chrome driver",
   "main": "./lib/macaca-chrome.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "driver-base": "^0.1.0",
-    "macaca-chromedriver": "^1.2.2",
+    "macaca-chromedriver": "^1.2.3",
     "macaca-utils": "^1.0.0",
     "xlogger": "~1.0.0"
   },
