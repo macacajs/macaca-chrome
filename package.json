@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "driver-base": "^0.1.0",
-    "macaca-chromedriver": "^1.1.1",
+    "macaca-chromedriver": "^1.2.2",
     "macaca-utils": "^1.0.0",
     "xlogger": "~1.0.0"
   },
