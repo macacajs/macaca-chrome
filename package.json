@@ -16,6 +16,9 @@
     "macaca",
     "chrome"
   ],
+  "files": [
+    "lib/**/*.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "driver-base": "^0.1.0",
