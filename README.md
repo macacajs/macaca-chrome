@@ -6,15 +6,15 @@
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/macaca-chrome.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/macaca-chrome.svg
 [npm-url]: https://npmjs.org/package/macaca-chrome
-[travis-image]: https://img.shields.io/travis/macacajs/macaca-chrome.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/macacajs/macaca-chrome.svg
 [travis-url]: https://travis-ci.org/macacajs/macaca-chrome
-[coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-chrome.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-chrome.svg
 [coveralls-url]: https://coveralls.io/r/macacajs/macaca-chrome?branch=master
-[node-image]: https://img.shields.io/badge/node.js-%3E=_7-green.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E=_7-green.svg
 [node-url]: http://nodejs.org/download/
-[download-image]: https://img.shields.io/npm/dm/macaca-chrome.svg?style=flat-square
+[download-image]: https://img.shields.io/npm/dm/macaca-chrome.svg
 [download-url]: https://npmjs.org/package/macaca-chrome
 
 > macaca chrome driver
@@ -27,7 +27,7 @@
 | :---: | :---: | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sat May 08 2021 11:06:42 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Fri Mar 04 2022 11:59:09 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 
