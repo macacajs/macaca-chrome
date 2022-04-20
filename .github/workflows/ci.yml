@@ -15,11 +15,8 @@ jobs:
       - name: Checkout Git Source
         uses: actions/checkout@v3
       
-      - name: Setup xvfb
-        run: |
-          sudo apt install xvfb
-          export DISPLAY=':99.0'
-          Xvfb :99 -screen 0 1366x768x24 > /dev/null 2>&1 &
+      - name: Setup Docker
+        uses: docker-practice/actions-setup-docker@1.0.9
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -34,7 +31,7 @@ jobs:
       - name: Continuous integration
         run: |
           npm run lint
-          npm run test
+          docker run -i --entrypoint=bash -v `pwd`:/root/tmp --rm macacajs/macaca-electron-docker-ubuntu -c "cd /root/tmp && ./test/ci.sh"
 
       - name: Code coverage
         uses: codecov/codecov-action@v3.0.0
