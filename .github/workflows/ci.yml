@@ -6,11 +6,18 @@ on:
   push:
     branches:
       - '**'
+    paths-ignore:
+      - '**.md'
 
 jobs:
   Runner:
     timeout-minutes: 10
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest ]
+        node-version: [ 16 ]
     steps:
       - name: Checkout Git Source
         uses: actions/checkout@v3
@@ -21,12 +28,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmmirror.com'
 
       - name: Install dependencies
-        run: |
-          npm i npm@6 -g
-          npm i
+        run: npm i
 
       - name: Continuous integration
         run: |
